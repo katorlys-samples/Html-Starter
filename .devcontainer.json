@@ -1,0 +1,23 @@
+{
+    "name": "Static Website Dev Container",
+    "image": "katorly/workspace-node:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "yandeu.five-server",
+                "rangav.vscode-thunder-client",
+                "zignd.html-css-class-completion",
+                "naumovs.color-highlight",
+                "ecmel.vscode-html-css",
+                "kisstkondoros.vscode-gutter-preview",
+                "jock.svg"
+            ],
+            "settings": {
+                "html.suggest.html5": true,
+                "[html]": {
+                    "editor.tabSize": 4
+                }
+            }
+        }
+    }
+}
